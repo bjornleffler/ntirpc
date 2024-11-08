@@ -39,6 +39,8 @@
 #ifndef _TIRPC_RPC_RDMA_H
 #define _TIRPC_RPC_RDMA_H
 
+#include <assert.h>
+
 #include <semaphore.h>
 #include <rdma/rdma_cma.h>
 #include <rpc/svc.h>
